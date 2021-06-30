@@ -1,0 +1,166 @@
+/* Start global */
+.hub-slider .arrows-holder,
+.hub-slider .bullets-holder {
+  list-style: none;
+  margin: 0;
+  padding: 0; }
+.hub-slider > .active,
+.hub-slider .arrows-holder,
+.hub-slider .arrows-holder > li,
+.hub-slider .bullets-holder,
+.hub-slider .bullets-holder > li {
+  box-sizing: border-box; }
+.hub-slider > .active {
+  display: block;
+  position: relative;
+  width: 100%; }
+.hub-slider > :not(.arrows-holder, .bullets-holder, .active, .hub-prevent) {
+  display: none; }
+
+/* End global */
+/* Start hub slider (container) */
+.hub-slider {
+  overflow: hidden;
+  position: relative;
+  text-align: center; }
+
+/* End hub slider (container) */
+/* Start arrows holder */
+.hub-slider .arrows-holder li {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  opacity: 0.5;
+  border: 5px solid;
+  border-color: transparent #777 #777 transparent;
+  border-radius: 0 6px 3px 6px;
+  transition: opacity 0.3s ease-in-out; }
+  .hub-slider .arrows-holder li:first-of-type {
+    position: absolute;
+    top: 50%;
+    left: 20px;
+    transform: translateY(-50%) rotate(135deg); }
+  .hub-slider .arrows-holder li:last-of-type {
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%) rotate(-45deg); }
+  .hub-slider .arrows-holder li:hover {
+    opacity: 1; }
+
+/* End arrows holder */
+/* Start bullets holder */
+.hub-slider .bullets-holder {
+  cursor: default;
+  position: absolute;
+  width: 100%;
+  bottom: 0; }
+  .hub-slider .bullets-holder > li {
+    display: inline-block;
+    cursor: pointer;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #777;
+    opacity: 0.5;
+    transition: opacity 0.3s ease-in-out;
+    margin: 0 2px; }
+    .hub-slider .bullets-holder > li.active, .hub-slider .bullets-holder > li:hover {
+      opacity: 1; }
+
+/* End bullets holder */
+/* Start classes animation */
+.hub-slider .hub-fade,
+.hub-slider .hub-top,
+.hub-slider .hub-bottom,
+.hub-slider .hub-left,
+.hub-slider .hub-right {
+  visibility: hidden;
+  animation-fill-mode: forwards !important; }
+.hub-slider .hub-fade {
+  animation: hub-fade 1s ease-out; }
+.hub-slider .hub-top {
+  animation: hub-top 1s ease-out; }
+.hub-slider .hub-bottom {
+  animation: hub-bottom 1s ease-out; }
+.hub-slider .hub-left {
+  animation: hub-left 1s ease-out; }
+.hub-slider .hub-right {
+  animation: hub-right 1s ease-out; }
+.hub-slider .faster {
+  animation-duration: 0.25s; }
+.hub-slider .fast {
+  animation-duration: 0.5s; }
+.hub-slider .medium {
+  animation-duration: 1s; }
+.hub-slider .slow {
+  animation-duration: 1.5s; }
+.hub-slider .slower {
+  animation-duration: 2s; }
+.hub-slider .delay-1 {
+  animation-delay: 1s; }
+.hub-slider .delay-2 {
+  animation-delay: 2s; }
+.hub-slider .delay-3 {
+  animation-delay: 3s; }
+.hub-slider .delay-4 {
+  animation-delay: 4s; }
+.hub-slider .delay-5 {
+  animation-delay: 5s; }
+.hub-slider .delay-6 {
+  animation-delay: 6s; }
+.hub-slider .delay-7 {
+  animation-delay: 7s; }
+.hub-slider .delay-8 {
+  animation-delay: 8s; }
+.hub-slider .delay-9 {
+  animation-delay: 9s; }
+.hub-slider .delay-10 {
+  animation-delay: 10s; }
+
+/* End classes animation */
+/* Start JavaScript classes */
+.hub-slider .remove-arrows-style {
+  transform: none !important;
+  transform: translateY(-50%) !important;
+  transition: none !important;
+  border: none !important;
+  width: auto !important;
+  height: auto !important;
+  opacity: 1 !important; }
+
+/* End JavaScript classes */
+/* Start keyframes */
+@keyframes hub-fade {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1;
+    visibility: visible; } }
+@keyframes hub-top {
+  0% {
+    transform: translateY(-100%); }
+  100% {
+    transform: translateY(0);
+    visibility: visible; } }
+@keyframes hub-bottom {
+  0% {
+    transform: translateY(100%); }
+  100% {
+    transform: translateY(0);
+    visibility: visible; } }
+@keyframes hub-left {
+  0% {
+    transform: translateX(-100%); }
+  100% {
+    transform: translateY(0);
+    visibility: visible; } }
+@keyframes hub-right {
+  0% {
+    transform: translateX(100%); }
+  100% {
+    transform: translateY(0);
+    visibility: visible; } }
+/* End keyframes */
+
+/*# sourceMappingURL=hub-slider.css.map */
