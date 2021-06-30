@@ -1,0 +1,28 @@
+/* Start global */
+.hub-slider {
+   .arrows-holder,
+   .bullets-holder {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+   }
+
+   & > .active,
+   .arrows-holder,
+   .arrows-holder > li,
+   .bullets-holder,
+   .bullets-holder > li {
+      box-sizing: border-box;
+   }
+
+   & > .active {
+      display: block;
+      position: relative;
+      width: 100%;
+   }
+
+   & > :not(.arrows-holder, .bullets-holder, .active, .hub-prevent) {
+      display: none;
+   }
+}
+/* End global */

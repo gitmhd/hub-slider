@@ -1,0 +1,14 @@
+/* Start features */
+.features {
+   ul {
+      list-style: $fListStyle;
+      padding: 0;
+      list-style-position: outside;
+      li {
+         margin-left: $fLiPaddingMargin;
+         padding-left: $fLiPaddingMargin;
+         line-height: $fLiLineHeight;
+      }
+   }
+}
+/* End features */

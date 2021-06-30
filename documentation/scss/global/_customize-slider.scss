@@ -1,0 +1,53 @@
+/* Start customize slider */
+.hub-slider {
+   min-height: $hubHeight;
+   padding-left: $hubPadding;
+   text-align: $hubAlign;
+   > div {
+      padding: $dDivPadding 0;
+   }
+
+   mark {
+      padding: 2px 4px;
+      color: #fff;
+      background-color: $mainColor;
+      border-radius: 3px;
+   }
+
+   .arrows-holder {
+      position: fixed;
+      right: 10px !important;
+      top: 50%;
+      width: 100px;
+      height: 1px;
+      z-index: 1;
+      transform: rotate(90deg);
+   }
+
+   .bullets-holder {
+      overflow: hidden;
+      text-align: $bulletsAlign;
+      padding-top: $bulletsPadding;
+      position: fixed;
+      top: 0;
+      @include position(left, 0);
+      width: $bulletsWidth;
+      height: 100%;
+      background-color: $bulletsBG;
+      box-shadow: 3px 0 10px $bulletsShadow;
+      font-size: $bulletsSize;
+      li {
+         display: block;
+         width: 100%;
+         height: $bLiHeight;
+         line-height: $bLiHeight;
+         border-radius: 0;
+         padding: 0 $bLiPadding;
+         text-transform: $bLiTransform;
+         background-color: transparent;
+         font-weight: $bLiWeight;
+         border-bottom: 2px solid $txtColor;
+      }
+   }
+}
+/* End customize slider */

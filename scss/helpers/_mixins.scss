@@ -1,0 +1,11 @@
+// Set a border
+@mixin setBorder($width, $style, $color) {
+   border: $width $style;
+   border-color: $color;
+}
+
+// Set a top postion
+@mixin topPos($pos, $top) {
+   position: $pos;
+   top: $top;
+}

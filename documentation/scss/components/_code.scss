@@ -1,0 +1,13 @@
+/* Start code component */
+code {
+   display: block;
+   padding: $codePadding;
+   background-color: $codeBG;
+   max-width: $codeWidth;
+   border-left: $codeBLeft solid $mainColor;
+   font-size: $codefontSize;
+   border-radius: 0 $codeRadius $codeRadius 0;
+   margin: $codeMargin 0 0;
+   overflow-x: auto;
+}
+/* End code component */

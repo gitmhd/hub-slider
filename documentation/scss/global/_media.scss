@@ -1,0 +1,23 @@
+/* Start media */
+@media (max-width: 768px) {
+   .hub-slider {
+      padding-left: 0;
+      .bullets-holder {
+         background-color: transparent;
+         box-shadow: none;
+         li {
+            background-color: $mainColor;
+            color: #fff;
+            position: relative;
+            overflow: hidden;
+            @include position(left, -90%);
+            border-bottom: none;
+            transition: left 0.8s ease-in-out;
+            &:hover {
+               left: -2px;
+            }
+         }
+      }
+   }
+}
+/* End media */

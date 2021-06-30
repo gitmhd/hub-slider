@@ -1,0 +1,76 @@
+/* Start classes animation */
+.hub-slider {
+   .hub-fade,
+   .hub-top,
+   .hub-bottom,
+   .hub-left,
+   .hub-right {
+      visibility: hidden;
+      animation-fill-mode: forwards !important;
+   }
+   .hub-fade {
+      animation: hub-fade 1s ease-out;
+   }
+   .hub-top {
+      animation: hub-top 1s ease-out;
+   }
+   .hub-bottom {
+      animation: hub-bottom 1s ease-out;
+   }
+   .hub-left {
+      animation: hub-left 1s ease-out;
+   }
+   .hub-right {
+      animation: hub-right 1s ease-out;
+   }
+
+   // duration classes
+   .faster {
+      animation-duration: 0.25s;
+   }
+   .fast {
+      animation-duration: 0.5s;
+   }
+   .medium {
+      animation-duration: 1s;
+   }
+   .slow {
+      animation-duration: 1.5s;
+   }
+   .slower {
+      animation-duration: 2s;
+   }
+
+   // delay classes
+   .delay-1 {
+      animation-delay: 1s;
+   }
+   .delay-2 {
+      animation-delay: 2s;
+   }
+   .delay-3 {
+      animation-delay: 3s;
+   }
+   .delay-4 {
+      animation-delay: 4s;
+   }
+   .delay-5 {
+      animation-delay: 5s;
+   }
+   .delay-6 {
+      animation-delay: 6s;
+   }
+   .delay-7 {
+      animation-delay: 7s;
+   }
+   .delay-8 {
+      animation-delay: 8s;
+   }
+   .delay-9 {
+      animation-delay: 9s;
+   }
+   .delay-10 {
+      animation-delay: 10s;
+   }
+}
+/* End classes animation */

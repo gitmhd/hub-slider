@@ -1,0 +1,54 @@
+/* Start keyframes */
+
+// Animation keyframes
+@keyframes hub-fade {
+   0% {
+      opacity: 0;
+   }
+   100% {
+      opacity: 1;
+      visibility: visible;
+   }
+}
+
+@keyframes hub-top {
+   0% {
+      transform: translateY(-100%);
+   }
+   100% {
+      transform: translateY(0);
+      visibility: visible;
+   }
+}
+
+@keyframes hub-bottom {
+   0% {
+      transform: translateY(100%);
+   }
+   100% {
+      transform: translateY(0);
+      visibility: visible;
+   }
+}
+
+@keyframes hub-left {
+   0% {
+      transform: translateX(-100%);
+   }
+   100% {
+      transform: translateY(0);
+      visibility: visible;
+   }
+}
+
+@keyframes hub-right {
+   0% {
+      transform: translateX(100%);
+   }
+   100% {
+      transform: translateY(0);
+      visibility: visible;
+   }
+}
+
+/* End keyframes */

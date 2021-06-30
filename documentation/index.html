@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>HUB Slider - Documentation</title>
+
+      <!-- CSS Files -->
+      <link rel="stylesheet" href="../dist/css/hub-slider.css" />
+      <link rel="stylesheet" href="css/main.css" />
+
+      <!-- JS Files -->
+      <script src="../dist/js/hub-slider.js"></script>
+   </head>
+   <body>
+      <section class="hub-slider" id="doc">
+         <!-- Arrows -->
+         <ul class="arrows-holder">
+            <li></li>
+            <li></li>
+         </ul>
+
+         <!-- Slide -->
+         <div class="active intro">
+            <div class="container">
+               <h1 class="hub-left fast">
+                  Hub-Slider
+                  <span class="version delay-7 hub-top fast">1.0.0v</span>
+               </h1>
+               <hr />
+               <p class="lead">
+                  <span class="hub-left fast inline delay-1"
+                     >By :
+                     <strong class="inline hub-top delay-2 fast"
+                        >Mohamed Albissaty</strong
+                     ></span
+                  >
+                  <br />
+                  <span class="inline hub-bottom delay-3 fast"
+                     >Email :
+                     <a
+                        class="spec inline hub-fade delay-4 fast"
+                        href="mailto:git.mhd@gmail.com"
+                        >git.mhd@gmail.com</a
+                     ></span
+                  >
+               </p>
+               <p class="lead hub-top fast delay-5">
+                  Thank you for using my slider, if you have any questions that
+                  aren’t covered in this article, please mail me at
+                  <a class="spec" href="mailto:git.mhd@gmail.com"
+                     >git.mhd@gmail.com</a
+                  >.
+               </p>
+               <p class="lead hub-fade fast delay-6">
+                  <mark>Hub-Slider</mark> is free vanilla JavaScript slider
+                  fast, lightweight, and multi-purpose. it designed without any
+                  icons or Gifs to be faster and more efficient.
+               </p>
+            </div>
+         </div>
+
+         <!-- Slide -->
+         <div class="usages">
+            <div class="container">
+               <h2 class="hub-left fast">Hub-Slider Usages</h2>
+               <hr />
+               <p class="lead hub-fade fast delay-1">
+                  <mark>Hub-Slider</mark> is lightweight slider multi-purpose
+                  convenient for all uses such as (presentation, content-viewer,
+                  slideshow, etc) or even like website template like what I did
+                  in this Documentation &#128077;&#128521;, final result depends
+                  in your creativity, you can use it to apply your own idea
+                  &#128076;.
+               </p>
+            </div>
+         </div>
+
+         <!-- Slide -->
+         <div class="features">
+            <div class="container">
+               <h2 class="hub-left fast">Hub-Slider Features</h2>
+               <hr />
+               <p class="lead hub-fade delay-1 fast">
+                  Some sliders size up to (120KB), undoubtedly such sizes low
+                  your website performance and user experience, so what is the
+                  solution? It is <mark>Hub-Slider</mark>.
+               </p>
+               <ul>
+                  <li class="hub-left delay-2 fast">Pure CSS/JavaScript.</li>
+                  <li class="hub-top delay-3 fast">
+                     Lightweight Less Than 10KB.
+                  </li>
+                  <li class="hub-left delay-4 fast">Using OOP Pattern.</li>
+                  <li class="hub-top delay-5 fast">Well Documented.</li>
+                  <li class="hub-left delay-6 fast">Full Responsive.</li>
+                  <li class="hub-top delay-7 fast">High Perfomance.</li>
+                  <li class="hub-left delay-8 fast">
+                     Includes Collection Of Animation Style.
+                  </li>
+                  <li class="hub-top delay-9 fast">Without Any Icons.</li>
+                  <li class="hub-bottom delay-10 fast">Easy To Customize.</li>
+               </ul>
+            </div>
+         </div>
+
+         <!-- Slide -->
+         <div>
+            <div class="container">
+               <h2 class="hub-left fast">Hub-Slider Installation</h2>
+               <hr />
+               <p class="lead hub-fade delay-1 fast">
+                  There are two ways to install <mark>Hub-Slider</mark> in your
+                  project.
+               </p>
+               <div class="hub-left fast delay-2">
+                  <h3>1) As NPM package:</h3>
+                  <p class="lead">
+                     First, install it in your project by running the following
+                     command:
+                     <code>npm install hub-slider --save </code>
+                  </p>
+                  <p class="lead">
+                     Then, include it in your view file (e.g index.html).
+                     <code>
+                        &lt;!DOCTYPE&gt;<br />&lt;html&nbsp;lang=&quot;en&quot;&gt;<br />&nbsp;&nbsp;&nbsp;&lt;head&gt;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;//&nbsp;Your&nbsp;HTML&nbsp;codes<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;link<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;rel=&quot;stylesheet&quot;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;href=&quot;node_modules/hub-slider/dist/css/hub-slider.css&quot;&gt;<br />&nbsp;&nbsp;&nbsp;&lt;/head&gt;<br />&nbsp;&nbsp;&nbsp;&lt;body&gt;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;//&nbsp;Your&nbsp;HTML&nbsp;codes<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;script&nbsp;src=&quot;node_modules/hub-slider/dist/js/hub-slider.min.js&quot;&gt;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/script&gt;<br />&nbsp;&nbsp;&nbsp;&lt;/body&gt;<br />&lt;html&gt;
+                     </code>
+                  </p>
+                  <p class="lead">
+                     Then, write the following code in your view file.
+                     <code>
+                        &lt;div&nbsp;class=&quot;hub-slider&quot;&nbsp;id=&quot;whatever&quot;&gt;<br />&nbsp;&nbsp;&nbsp;&lt;div&gt;Slide&nbsp;number&nbsp;#01&lt;/div&gt;<br />&nbsp;&nbsp;&nbsp;&lt;div&gt;Slide&nbsp;number&nbsp;#02&lt;/div&gt;<br />&nbsp;&nbsp;&nbsp;&lt;div&gt;Slide&nbsp;number&nbsp;#03&lt;/div&gt;<br />&lt;/div
+                     </code>
+                  </p>
+                  <p class="lead">
+                     Finally, run the slider using following JS code.
+                     <code>
+                        let&nbsp;myslider&nbsp;=&nbsp;new&nbsp;HUBSlider();<br />myslider.init(&quot;whatever&quot;);&nbsp;//&nbsp;pass&nbsp;the&nbsp;element&nbsp;id
+                     </code>
+                  </p>
+               </div>
+               <div class="hub-left fast delay-3">
+                  <h3>2) As normal plugin:</h3>
+                  <p class="lead">
+                     First, clone it from
+                     <a
+                        class="spec"
+                        href="https://github.com/gitmhd/hub-slider"
+                     >
+                        here </a
+                     >.
+                  </p>
+                  <p class="lead">
+                     Then, include its files in your project using whatever
+                     method you want, the important thing is you must include
+                     them in your project.
+                     <code>
+                        &lt;!DOCTYPE&gt;<br />&lt;html&nbsp;lang=&quot;en&quot;&gt;<br />&nbsp;&nbsp;&nbsp;&lt;head&gt;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;//&nbsp;Your&nbsp;HTML&nbsp;codes<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;link<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;rel=&quot;stylesheet&quot;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;href=&quot;css/hub-slider.css&quot;&gt;<br />&nbsp;&nbsp;&nbsp;&lt;/head&gt;<br />&nbsp;&nbsp;&nbsp;&lt;body&gt;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;//&nbsp;Your&nbsp;HTML&nbsp;codes<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;script&nbsp;src=&quot;js/hub-slider.min.js&quot;&gt;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/script&gt;<br />&nbsp;&nbsp;&nbsp;&lt;/body&gt;<br />&lt;html&gt;
+                     </code>
+                  </p>
+                  <p class="lead">
+                     Then, write the following code in your HTML file.
+                     <code>
+                        &lt;div&nbsp;class=&quot;hub-slider&quot;&nbsp;id=&quot;whatever&quot;&gt;<br />&nbsp;&nbsp;&nbsp;&lt;div&gt;Slide&nbsp;number&nbsp;#01&lt;/div&gt;<br />&nbsp;&nbsp;&nbsp;&lt;div&gt;Slide&nbsp;number&nbsp;#02&lt;/div&gt;<br />&nbsp;&nbsp;&nbsp;&lt;div&gt;Slide&nbsp;number&nbsp;#03&lt;/div&gt;<br />&lt;/div
+                     </code>
+                  </p>
+                  <p class="lead">
+                     Finally, run the slider using following JS code.
+                     <code>
+                        let&nbsp;myslider&nbsp;=&nbsp;new&nbsp;HUBSlider();<br />myslider.init(&quot;whatever&quot;);&nbsp;//&nbsp;pass&nbsp;the&nbsp;element&nbsp;id
+                     </code>
+                  </p>
+               </div>
+            </div>
+         </div>
+
+         <!-- Slide -->
+         <div>
+            <div class="container">
+               <h2 class="hub-left fast">Customization</h2>
+               <hr />
+               <p class="lead hub-fade delay-1">
+                  You can customize <mark>Hub-Slider</mark> by adding predefined
+                  classes to the slide elements or by adding special property
+                  values to the options method.
+               </p>
+               <div class="hub-left fast delay-2">
+                  <h3>Sliding Style:</h3>
+                  <p class="lead">
+                     You can change the way that your slides show and hide.
+                     <br />
+                     All option values listed in the Options section.
+                     <code>
+                        let myslider = new HUBSlider(); <br />
+                        myslider.init("whatever"); <br />
+                        myslider.options({ <br />
+                        &nbsp;&nbsp; slidingPrev: "hub-bottom", <br />
+                        &nbsp;&nbsp; slidingNext: "hub-top" <br />
+                        });
+                     </code>
+                  </p>
+               </div>
+               <div class="hub-left fast delay-3">
+                  <h3>Arrows Color:</h3>
+                  <p class="lead">
+                     You can change your arrows color.
+                     <code>
+                        let myslider = new HUBSlider(); <br />
+                        myslider.init("whatever"); <br />
+                        myslider.options({ <br />
+                        &nbsp;&nbsp; arrowsColor: "red", <br />
+                        });
+                     </code>
+                  </p>
+               </div>
+               <div class="hub-left fast delay-4">
+                  <h3>Remove Arrows Style:</h3>
+                  <p class="lead">
+                     You can remove arrows default style, if you want to add
+                     your own style. <br />
+                     All option values listed in the Options section.
+                     <code>
+                        let myslider = new HUBSlider(); <br />
+                        myslider.init("whatever"); <br />
+                        myslider.options({ <br />
+                        &nbsp;&nbsp; arrowsRemoveStyle: "both", <br />
+                        });
+                     </code>
+                  </p>
+               </div>
+               <div class="hub-left fast delay-5">
+                  <h3>Sliding Delay:</h3>
+                  <p class="lead">
+                     You can change the time of the sliding from element to
+                     another. <br />
+                     All option values listed in the Options section.
+                     <code>
+                        let myslider = new HUBSlider(); <br />
+                        myslider.init("whatever"); <br />
+                        myslider.options({ <br />
+                        &nbsp;&nbsp; interval: 3000, <br />
+                        });
+                     </code>
+                  </p>
+               </div>
+               <div class="hub-left fast delay-6">
+                  <h3>Stop Animation:</h3>
+                  <p class="lead">
+                     You can stop the animation. <br />
+                     All option values listed in the Options section.
+                     <code>
+                        let myslider = new HUBSlider(); <br />
+                        myslider.init("whatever"); <br />
+                        myslider.options({ <br />
+                        &nbsp;&nbsp; animateSlide: false, <br />
+                        });
+                     </code>
+                  </p>
+               </div>
+               <div class="hub-left fast delay-7">
+                  <h3>Auto Sliding:</h3>
+                  <p class="lead">
+                     You can stop your slider from auto sliding. <br />
+                     All option values listed in the Options section.
+                     <code>
+                        let myslider = new HUBSlider(); <br />
+                        myslider.init("whatever"); <br />
+                        myslider.options({ <br />
+                        &nbsp;&nbsp; autoSlide: false, <br />
+                        });
+                     </code>
+                  </p>
+               </div>
+               <hr />
+               <div class="hub-left fast delay-8">
+                  <h3>Animation:</h3>
+                  <p class="lead">
+                     You can animate your elements by adding predefined classes
+                     to your slide elements or to them children. <br />
+                     All classes, listed in the Options section.
+                     <code>
+                        &lt;div class="hub-slider" id="whatever"&gt; <br />
+                        &nbsp;&nbsp; &lt;div class="hub-fade"&gt;Slide
+                        #01&lt;/div&gt; <br />
+                        &nbsp;&nbsp; &lt;div class="hub-left"&gt;Slide
+                        #02&lt;/div&gt; <br />
+                        &nbsp;&nbsp; &lt;div class="hub-top"&gt; <br />
+                        &nbsp;&nbsp;&nbsp;&nbsp; &lt;div
+                        class="hub-bottom"&gt;Child element&lt;/div&gt; <br />
+                        &nbsp;&nbsp; &lt;/div&gt; <br />
+                        &lt;/div&gt;
+                     </code>
+                  </p>
+               </div>
+               <div class="hub-left fast delay-9">
+                  <h3>Animation Delay:</h3>
+                  <p class="lead">
+                     You can delay your animation using predefined classes.
+                     <br />
+                     All classes, listed in the Options seciton
+                     <code>
+                        &lt;div class="hub-slider" id="whatever"&gt; <br />
+                        &nbsp;&nbsp; &lt;div class="hub-fade delay-1"&gt;Slide
+                        #01&lt;/div&gt; <br />
+                        &nbsp;&nbsp; &lt;div class="hub-left delay-2"&gt;Slide
+                        #02&lt;/div&gt; <br />
+                        &nbsp;&nbsp; &lt;div class="hub-right delay-3"&gt;Slide
+                        #03&lt;/div&gt; <br />
+                        &lt;/div&gt;
+                     </code>
+                  </p>
+               </div>
+               <div class="hub-left fast delay-10">
+                  <h3>Animation Duration:</h3>
+                  <p class="lead">
+                     You can set your animation duration using predefined
+                     classes.
+                     <br />
+                     All classes, listed in the Options seciton
+                     <code>
+                        &lt;div class="hub-slider" id="whatever"&gt; <br />
+                        &nbsp;&nbsp; &lt;div class="hub-fade delay-1
+                        slow"&gt;Slide #01&lt;/div&gt; <br />
+                        &nbsp;&nbsp; &lt;div class="hub-left delay-2
+                        fast"&gt;Slide #02&lt;/div&gt; <br />
+                        &nbsp;&nbsp; &lt;div class="hub-right delay-3
+                        medium"&gt;Slide #03&lt;/div&gt; <br />
+                        &lt;/div&gt;
+                     </code>
+                  </p>
+               </div>
+               <div class="hub-left fast delay-10">
+                  <h3>Use CSS:</h3>
+                  <p class="lead">
+                     In addition, you can use custom <strong>CSS</strong> to
+                     change the slider layout and to style it.
+                  </p>
+               </div>
+            </div>
+         </div>
+
+         <!-- Slide -->
+         <div class="options">
+            <div class="container">
+               <h2 class="hub-left fast">Options</h2>
+               <hr />
+               <p class="lead hub-fade fast delay-1">
+                  All Options are listed here.
+               </p>
+               <h3 class="hub-left fast delay-2">Slider Options</h3>
+               <div class="options-table fast hub-fade delay-3">
+                  <div class="row">
+                     <div class="col not">Option</div>
+                     <div class="col">Description</div>
+                  </div>
+                  <div class="row">
+                     <div class="col not">slidingPrev</div>
+                     <div class="col">
+                        This shows how the slider will slide to the previous
+                        elements, and accept the following values:(hub-fade,
+                        hub-top, hub-right, hub-bottom, hub-left).
+                     </div>
+                  </div>
+                  <div class="row">
+                     <div class="col not">slidingNext</div>
+                     <div class="col">
+                        This shows how the slider will slide to the next
+                        elements, and accept the following values:(hub-fade,
+                        hub-top, hub-right, hub-bottom, hub-left).
+                     </div>
+                  </div>
+                  <div class="row">
+                     <div class="col not">arrowsColor</div>
+                     <div class="col">This sets the color of the arrows.</div>
+                  </div>
+                  <div class="row">
+                     <div class="col not">arrowsRemoveStyle</div>
+                     <div class="col">
+                        This remove the default style of the arrows, and accept
+                        the following values:(both, next, prev).
+                     </div>
+                  </div>
+                  <div class="row">
+                     <div class="col not">interval</div>
+                     <div class="col">
+                        This sets the time of sliding from element to another,
+                        and accept any number.
+                     </div>
+                  </div>
+                  <div class="row">
+                     <div class="col not">animateSlide</div>
+                     <div class="col">
+                        This stops the animation when sliding, and accept
+                        boolean value:(true, false).
+                     </div>
+                  </div>
+                  <div class="row">
+                     <div class="col not">autoSlide</div>
+                     <div class="col">
+                        This stops the slider from auto sliding, and accept
+                        boolean value:(true, false)
+                     </div>
+                  </div>
+               </div>
+
+               <h3 class="hub-left fast delay-4">Predefined Classes</h3>
+               <div class="classes-table fast hub-fade delay-5">
+                  <div class="row">
+                     <div class="col not">Class</div>
+                     <div class="col">Description</div>
+                  </div>
+                  <div class="row">
+                     <div class="col not">.hub-fade</div>
+                     <div class="col">
+                        You can add it to any Hub-Slider child and will apply
+                        fade animation.
+                     </div>
+                  </div>
+                  <div class="row">
+                     <div class="col not">.hub-top</div>
+                     <div class="col">
+                        You can add it to any Hub-Slider child and will be
+                        animated from the top.
+                     </div>
+                  </div>
+                  <div class="row">
+                     <div class="col not">.hub-left</div>
+                     <div class="col">
+                        You can add it to any Hub-Slider child and will be
+                        animated from the left.
+                     </div>
+                  </div>
+                  <div class="row">
+                     <div class="col not">.hub-bottom</div>
+                     <div class="col">
+                        You can add it to any Hub-Slider child and will be
+                        animated from the bottom.
+                     </div>
+                  </div>
+                  <div class="row">
+                     <div class="col not">.hub-right</div>
+                     <div class="col">
+                        You can add it to any Hub-Slider child and will be
+                        animated from the right.
+                     </div>
+                  </div>
+                  <div class="row">
+                     <div class="col not">.delay-1</div>
+                     <div class="col">Delays the animation 1 second.</div>
+                  </div>
+                  <div class="row">
+                     <div class="col not">.delay-2</div>
+                     <div class="col">Delays the animation 2 seconds.</div>
+                  </div>
+                  <div class="row">
+                     <div class="col not">.delay-3</div>
+                     <div class="col">Delays the animation 3 seconds.</div>
+                  </div>
+                  <div class="row">
+                     <div class="col not">.delay-4</div>
+                     <div class="col">Delays the animation 4 seconds.</div>
+                  </div>
+                  <div class="row">
+                     <div class="col not">.delay-5</div>
+                     <div class="col">Delays the animation 5 seconds.</div>
+                  </div>
+                  <div class="row">
+                     <div class="col not">.delay-6</div>
+                     <div class="col">Delays the animation 6 seconds.</div>
+                  </div>
+                  <div class="row">
+                     <div class="col not">.delay-7</div>
+                     <div class="col">Delays the animation 7 seconds.</div>
+                  </div>
+                  <div class="row">
+                     <div class="col not">.delay-9</div>
+                     <div class="col">Delays the animation 9 seconds.</div>
+                  </div>
+                  <div class="row">
+                     <div class="col not">.delay-10</div>
+                     <div class="col">Delays the animation 10 seconds.</div>
+                  </div>
+                  <div class="row">
+                     <div class="col not">.faster</div>
+                     <div class="col">
+                        Sets the animation duration to 250ms.
+                     </div>
+                  </div>
+                  <div class="row">
+                     <div class="col not">.fast</div>
+                     <div class="col">
+                        Sets the animation duration to 500ms.
+                     </div>
+                  </div>
+                  <div class="row">
+                     <div class="col not">.medium</div>
+                     <div class="col">Sets the animation duration to 1s.</div>
+                  </div>
+                  <div class="row">
+                     <div class="col not">.slow</div>
+                     <div class="col">Sets the animation duration to 1.5s.</div>
+                  </div>
+                  <div class="row">
+                     <div class="col not">.slower</div>
+                     <div class="col">Sets the animation duration to 2s.</div>
+                  </div>
+               </div>
+            </div>
+         </div>
+
+         <!-- Slide -->
+         <div>
+            <div class="container">
+               <h2 class="hub-left fast">Support</h2>
+               <hr />
+               <p class="lead hub-fade fast delay-1">
+                  If you experienced any issue, feel free to describe your issue
+                  at
+                  <a
+                     class="spec"
+                     href="https://github.com/gitmhd/hub-slider/issues"
+                     >Github!</a
+                  >
+               </p>
+               <p class="lead hub-top fast delay-2">
+                  If something not clear in the Documentation, feel free to mail
+                  me at
+                  <a class="spec" href="mailto:git.mhd@gmail.com">
+                     git.mhd@gmail.com</a
+                  >.
+               </p>
+            </div>
+         </div>
+
+         <!-- Bullets -->
+         <ul class="bullets-holder">
+            <li class="hub-top fast">introduction</li>
+            <li class="hub-left delay-1 faster">usages</li>
+            <li class="hub-left delay-2 faster">features</li>
+            <li class="hub-left delay-3 faster">installation</li>
+            <li class="hub-left delay-4 faster">customization</li>
+            <li class="hub-left delay-5 faster">options</li>
+            <li class="hub-top delay-6 fast">Support</li>
+         </ul>
+      </section>
+
+      <!-- JavaScript Files -->
+      <script src="js/custom.js"></script>
+   </body>
+</html>

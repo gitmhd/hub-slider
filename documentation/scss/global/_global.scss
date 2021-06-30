@@ -1,0 +1,82 @@
+/* Start global */
+*,
+*::after,
+*::before {
+   box-sizing: border-box;
+}
+
+body {
+   color: $txtColor;
+   margin: 0;
+   padding: 0;
+   font-family: sans-serif;
+   p {
+      margin: $pMargin 0;
+   }
+
+   h1,
+   h2,
+   h3,
+   h4,
+   h5,
+   h6 {
+      margin: 30px 0 0;
+   }
+
+   h1,
+   h2 {
+      font-weight: normal;
+      color: $headingsColor;
+   }
+
+   h3,
+   h4 {
+      color: $headingsColor;
+   }
+
+   h1 {
+      font-size: $h1Size;
+   }
+
+   h2 {
+      font-size: $h2Size;
+   }
+
+   hr {
+      border: none;
+      border-top: 1px solid $hrColor;
+      margin: $hrMargin 0;
+   }
+
+   a {
+      color: inherit;
+      text-decoration: inherit;
+   }
+
+   .container {
+      padding: 0 $conPadding;
+   }
+
+   .spec {
+      color: $mainColor;
+      font-weight: bold;
+   }
+
+   .inline {
+      display: inline-block;
+   }
+
+   .version {
+      font-size: $versionSize;
+      display: inline-block;
+      color: $headingsColor;
+   }
+
+   .lead {
+      line-height: $leadLHeight;
+      max-width: $leadWidth;
+      font-size: $leadSize;
+      margin: 15px 0 0;
+   }
+}
+/* End global */

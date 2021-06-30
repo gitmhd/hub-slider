@@ -1,0 +1,63 @@
+// <p> variables
+$pMargin: 15px;
+
+// Global variables
+$txtColor: #474d5d;
+$mainColor: #7585aa;
+$fontSize: 16px;
+
+// Heading variables
+$h1Size: 2.5rem;
+$h2Size: 1.8rem;
+$headingsColor: #b5bacc;
+
+// <code> variables
+$codeBG: #e5e5e5;
+$codePadding: 15px;
+$codeWidth: 600px;
+$codeBLeft: 6px;
+$codefontSize: $fontSize - 2px;
+$codeRadius: 5px;
+$codeMargin: 10px;
+
+// <hr> variables
+$hrColor: #eee;
+$hrMargin: 20px;
+
+// .container variables
+$conPadding: 50px;
+
+// .version variables
+$versionSize: 12px;
+
+// .lead variables
+$leadLHeight: 1.7rem;
+$leadWidth: 650px;
+$leadSize: 1.05rem;
+
+// .hub-slider variables
+$hubHeight: 100%;
+$hubPadding: 260px; // need change
+$hubAlign: left;
+
+// .hub-slider > div variables
+$dDivPadding: 100px;
+
+// .bullets-holder variables
+$bulletsAlign: right;
+$bulletsPadding: $dDivPadding;
+$bulletsWidth: $hubPadding;
+$bulletsBG: $headingsColor;
+$bulletsShadow: rgba(0, 0, 0, 0.3);
+$bulletsSize: 15px;
+
+// .bullets-holder li
+$bLiHeight: 50px;
+$bLiPadding: 15px;
+$bLiTransform: uppercase;
+$bLiWeight: bold;
+
+// features children variables
+$fListStyle: square;
+$fLiPaddingMargin: 15px;
+$fLiLineHeight: 1.8;

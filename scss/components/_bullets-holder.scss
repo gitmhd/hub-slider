@@ -1,0 +1,25 @@
+/* Start bullets holder */
+.hub-slider {
+   .bullets-holder {
+      cursor: default;
+      position: absolute;
+      width: 100%;
+      bottom: 0;
+      & > li {
+         display: inline-block;
+         cursor: pointer;
+         width: 12px;
+         height: 12px;
+         border-radius: 50%;
+         background-color: $mainColor;
+         opacity: 0.5;
+         transition: opacity 0.3s ease-in-out;
+         margin: 0 2px;
+         &.active,
+         &:hover {
+            opacity: 1;
+         }
+      }
+   }
+}
+/* End bullets holder */

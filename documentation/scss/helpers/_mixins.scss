@@ -1,0 +1,7 @@
+@mixin position($p, $v) {
+    @if $p == left {
+        left: $v;
+    } @else {
+        right: $v;
+    }
+}

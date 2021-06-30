@@ -1,0 +1,43 @@
+/* Start options */
+
+.options {
+   h3 {
+      text-align: center;
+      padding: 20px 0;
+   }
+   .row {
+      display: flex;
+      flex-wrap: wrap;
+      border-top: 1px solid $headingsColor;
+
+      &:hover {
+         background-color: $codeBG;
+      }
+      &:first-of-type {
+         background-color: $headingsColor;
+         color: #fff;
+         font-weight: bold;
+         .col {
+            padding: 15px 20px;
+         }
+      }
+      & > .col {
+         flex: 1 1 0;
+         padding: 10px 20px;
+         line-height: 1.5;
+         font-size: 1.05em;
+         &.not {
+            flex: 0 1 180px;
+            font-style: italic;
+         }
+      }
+   }
+   .options-table,
+   .classes-table {
+      border-radius: 10px 10px 0 0;
+      box-shadow: 0 0 10px #ccc;
+      overflow: hidden;
+   }
+}
+
+/* End options */

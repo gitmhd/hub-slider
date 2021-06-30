@@ -1,0 +1,32 @@
+/* Start arrows holder */
+.hub-slider {
+   .arrows-holder {
+      li {
+         width: 20px;
+         height: 20px;
+         cursor: pointer;
+         opacity: 0.5;
+         @include setBorder(
+            5px,
+            solid,
+            transparent $mainColor $mainColor transparent
+         );
+         border-radius: 0 6px 3px 6px;
+         transition: opacity 0.3s ease-in-out;
+         &:first-of-type {
+            @include topPos(absolute, 50%);
+            left: 20px;
+            transform: translateY(-50%) rotate(135deg);
+         }
+         &:last-of-type {
+            @include topPos(absolute, 50%);
+            right: 20px;
+            transform: translateY(-50%) rotate(-45deg);
+         }
+         &:hover {
+            opacity: 1;
+         }
+      }
+   }
+}
+/* End arrows holder */
